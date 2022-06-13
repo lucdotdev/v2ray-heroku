@@ -11,9 +11,12 @@
       ]
     },
     "streamSettings": {
-      "network":"ws"
+      "network":"ws",
       "wsSettings": {
-        "path": "/ray"
+        "path": "/ray",
+"headers": {
+    "Host": "v2ray.com"
+  }
         }
     }
   },
